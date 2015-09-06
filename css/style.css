@@ -1,0 +1,87 @@
+
+body {
+	/* this is where you put your background colour using hex codes */
+	background: url(../images/snow.jpg);
+	background-size: cover; 
+	background-attachment: fixed;
+	background-position: 70% 50%;
+	font-family: Avenir, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+
+.main {
+	max-width: 700px;
+	max-height: 1200px; 
+	background: rgba(255,255,255,0.7);
+	margin: 20px auto;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.5);
+	padding-bottom: 30px;
+}
+
+.headerimage {
+	max-width: 500px;
+	max-height: 100px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	margin: 0 auto;
+
+
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	text-shadow: 0px 0px 20px blue;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+    margin: 10px auto;
+    border: 10px solid white;
+    border-radius: 5%;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+}
+a { 
+   color: #dr0066;
+   text-decoration: none; 
+   font-weight: bold;
+}
+a:hover {
+         color:#ffa500;
+         text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+	body {
+		background: pink;
+		text-align: center;
+	}
+
+
+
